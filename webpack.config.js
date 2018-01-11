@@ -170,6 +170,19 @@ module.exports = [
             library: 'JitsiMeetExternalAPI',
             libraryTarget: 'umd'
         })
+    }),
+
+    // The Webpack configuration to bundle external_api.js (aka
+    // JitsiMeetExternalAPI).
+    Object.assign({}, config, {
+        entry: {
+            'browser_capabilities':
+                './react/features/browser-capabilities/index.js'
+        },
+        output: Object.assign({}, config.output, {
+            library: 'BrowserCapabilities',
+            libraryTarget: 'umd'
+        })
     })
 ];
 
