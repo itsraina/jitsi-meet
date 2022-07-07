@@ -46,7 +46,7 @@
     "jwt-decode": "2.2.0",
     "lib-jitsi-meet": "github:jitsi/lib-jitsi-meet#baa5d9b9973db66006aab260808ee445f01d326f",
     "lodash": "4.17.4",
-    "moment": "2.19.4",
+    "moment": "2.29.4",
     "nuclear-js": "1.4.0",
     "postis": "2.2.0",
     "prop-types": "15.6.0",
